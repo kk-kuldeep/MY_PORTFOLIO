@@ -12,7 +12,7 @@ const projects = [
     date: "July, 22",
     purpose: ["markOne"],
     desc: "Want to know what all those flag emojis mean in your chats. Flag Mania can help you in getting a quick idea of what that flag represents, and whether you should engage in a conversation where the flag is being used.",
-    liveLink: "#",
+    liveLink: "https://prismatic-centaur-0cb2d8.netlify.app/",
     srcLink: "https://github.com/kk-kuldeep/flag_mania",
   },
   {
