@@ -31,6 +31,14 @@ const projects = [
     liveLink: "https://kk-kuldeep.github.io/Lucky_birthday/",
     srcLink: "https://github.com/kk-kuldeep/Lucky_birthday",
   },
+  {
+    name: "Watch",
+    date: "jan, 22",
+    purpose: ["markFour"],
+    desc: "a special watch with buttons that start, stop, and then zero the hands, used to time races.",
+    liveLink: "https://kk-kuldeep.github.io/watch/",
+    srcLink: "https://github.com/kk-kuldeep/watch",
+  },
 ];
 
 const content = document.querySelector("#primary-content");
