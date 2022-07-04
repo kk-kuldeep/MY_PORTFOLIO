@@ -1,7 +1,15 @@
 const projects = [
   {
+    name: "Portfolio",
+    date: "July, 22",
+    purpose: ["markZero"],
+    desc: "A web app that tells my portfolio.",
+    liveLink: "https://kk-kuldeep.github.io/MY_PORTFOLIO/",
+    srcLink: "https://github.com/kk-kuldeep/MY_PORTFOLIO",
+  },
+  {
     name: "flag-mania",
-    date: "Aug, 21",
+    date: "July, 22",
     purpose: ["markOne"],
     desc: "Want to know what all those flag emojis mean in your chats. Flag Mania can help you in getting a quick idea of what that flag represents, and whether you should engage in a conversation where the flag is being used.",
     liveLink: "#",
@@ -9,7 +17,7 @@ const projects = [
   },
   {
     name: "cash-register",
-    date: "Aug, 21",
+    date: "July, 22",
     purpose: ["markTwo"],
     desc: "A web app that can help you to calculate how much minimum number of notes can be given when returning change.",
     liveLink: "https://kk-kuldeep.github.io/cash_register/",
@@ -17,7 +25,7 @@ const projects = [
   },
   {
     name: "lucky-birthday",
-    date: "Aug, 21",
+    date: "July, 22",
     purpose: ["markThree"],
     desc: "A web app that tells you if your birthday is lucky or not.",
     liveLink: "https://kk-kuldeep.github.io/Lucky_birthday/",
