@@ -1,75 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Custom CSS Stylesheet -->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Contact Me |Kuldeep Singal</title>
-  </head>
-  <body>
-    <nav class="navbar" id="navbar">
-      <a class="navbar__brand-name" href="./index.html">Kuldeep Singhal</a>
-      <ul class="list-unordered--inline navbar__links">
-        <li class="list-unordered--inline__item">
-          <a class="navbar__link" href="./index.html">Home</a>
-        </li>
-        <li class="list-unordered--inline__item">
-          <a class="navbar__link" href="./projects.html">Projects</a>
-        </li>
-        <li class="list-unordered--inline__item">
-          <a class="navbar__link navbar__link--focus" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
 
-    <header class="header">
-      <h1 class="header__text">
-        hii
-      </h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Contact Me |Kuldeep Singal</title>
+</head>
 
-    <div id="content--primary"></div>
+<body>
+  <nav class="navbar" id="navbar">
+    <a class="navbar__brand-name" href="./index.html">Kuldeep Singhal</a>
+    <ul class="list-unordered--inline navbar__links">
+      <li class="list-unordered--inline__item">
+        <a class="navbar__link" href="./index.html">Home</a>
+      </li>
+      <li class="list-unordered--inline__item">
+        <a class="navbar__link" href="./projects.html">Projects</a>
+      </li>
+      <li class="list-unordered--inline__item">
+        <a class="navbar__link navbar__link--focus" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-    <footer class="footer">
-      <!-- We can't use heading tags like h1, h2 ... and so on in footer according to styling guide -->
-      <section class="footer__main-content">
-        <section class="footer__main-content__subsection_1">
-          <p class="footer__text">Move to</p>
-          <ul class="footer__list">
-            <li><a class="footer__link" href="#navbar">Back to Top</a></li>
-            <li><a class="footer__link" href="./projects.html">Projects</a></li>
-            <li><a class="footer__link" href="./index.html">Home</a></li>
-          </ul>
-        </section>
+  <header class="header">
+    <h1 class="header__text"></h1>
+  </header>
+  <section id="contact">
+    <div class="my_container">
+      <!-- <h1 class="text-center">Contact Me</h1> -->
 
-        <section class="footer__main-content__subsection_2">
-          <p class="footer__text">Social media links</p>
-          <ul class="footer__list">
-            <li>
-              <a
-                class="footer__link"
-                target="_blank"
-                rel="noreferrer noopener"
-                href="https://github.com/kk-kuldeep"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a
-                class="footer__link"
-                target="_blank"
-                rel="noreferrer noopener"
-                href="https://www.linkedin.com/in/kuldeep-singhal-b81808234/"
-                >LinkedIn</a
-              >
-            </li>
-          </ul>
-        </section>
+      <div class="grid grid-cols-2">
+        <div class="col-lg-6">
+          <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+          <div style="
+                max-width: 100%;
+                overflow: hidden;
+                color: red;
+                width: 50vw;
+                height: 100vh;
+              ">
+            <div style="
+                  overflow: hidden;
+                  resize: none;
+                  max-width: 100%;
+                  width: 45vw;
+                  height: 100vh;
+                ">
+              <div id="display-googlemap" style="height: 100%; width: 100%; max-width: 100%">
+                <iframe style="height: 100%; width: 100%; border: 0" frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=jaipur&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+              </div>
+              <a class="codefor-google-map" href="https://www.embed-map.com"
+                id="authorizemap-data">https://www.embed-map.com</a>
+              <style>
+                #display-googlemap img.text-marker {
+                  max-width: none !important;
+                  background: none !important;
+                }
+
+                img {
+                  max-width: none;
+                }
+              </style>
+            </div>
+            <a class="googlemaps-html" href="https://www.embed-map.com"
+              id="get-data-forembedmap">https://www.embed-map.com</a>
+            <style>
+              #embedmap-canvas img {
+                max-width: none !important;
+                background: none !important;
+                font-size: inherit;
+                font-weight: inherit;
+              }
+            </style>
+          </div>
+        </div>
+
+        <div>
+          <div class="col-lg-6">
+            <div style="
+                  max-width: 100%;
+                  overflow: hidden;
+                  color: red;
+                  width: 50vw;
+                  height: 400px;
+                ">
+              <form class="form">
+                <div class="pageTitle title">Contact Me </div>
+                <div class="secondaryTitle title">Please fill this form to contact me.</div>
+                <input type="text" class="name formEntry" placeholder="Name" />
+                <input type="text" class="email formEntry" placeholder="Email"/>
+                <textarea class="message formEntry" placeholder="Message"></textarea>
+                <!-- <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br> -->
+                <p class="hide">
+                -----------------------------------------------------------------------
+                </p>
+                <button class="submit formEntry" onclick="thanks()">Submit</button>
+                <p class="hide">
+                  -----------------------------------------------------------------------------
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="content--primary"></div>
+
+  <footer class="footer">
+    <!-- We can't use heading tags like h1, h2 ... and so on in footer according to styling guide -->
+    <section class="footer__main-content">
+      <section class="footer__main-content__subsection_1">
+        <p class="footer__text">Move to</p>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#navbar">Back to Top</a></li>
+          <li><a class="footer__link" href="./projects.html">Projects</a></li>
+          <li><a class="footer__link" href="./index.html">Home</a></li>
+        </ul>
       </section>
-    </footer>
 
-    <script src="./scripts/Contact.js"></script>
-  </body>
+      <section class="footer__main-content__subsection_2">
+        <p class="footer__text">Social media links</p>
+        <ul class="footer__list">
+          <li>
+            <a class="footer__link" target="_blank" rel="noreferrer noopener"
+              href="https://github.com/kk-kuldeep">GitHub</a>
+          </li>
+          <li>
+            <a class="footer__link" target="_blank" rel="noreferrer noopener"
+              href="https://www.linkedin.com/in/kuldeep-singhal-b81808234/">LinkedIn</a>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </footer>
+
+  <!-- <script src="./scripts/Contact.js"></script> -->
+</body>
+
 </html>
