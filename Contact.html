@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Custom CSS Stylesheet -->
   <link rel="stylesheet" href="./css/styles.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  
   <title>Contact Me |Kuldeep Singal</title>
 </head>
 
@@ -94,14 +94,15 @@
                 <div class="pageTitle title">Contact Me </div>
                 <div class="secondaryTitle title">Please fill this form to contact me.</div>
                 <input type="text" class="name formEntry" placeholder="Name" />
-                <input type="text" class="email formEntry" placeholder="Email"/>
+                <input type="text" class="email formEntry" id="email" placeholder="Email"/>
                 <textarea class="message formEntry" placeholder="Message"></textarea>
                 <!-- <input type="checkbox" class="termsConditions" value="Term">
                 <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br> -->
                 <p class="hide">
                 -----------------------------------------------------------------------
                 </p>
-                <button class="submit formEntry" onclick="thanks()">Submit</button>
+    
+                <button class="submit formEntry" onclick="sendEmail();" >Submit</button>
                 <p class="hide">
                   -----------------------------------------------------------------------------
                 </p>
@@ -142,7 +143,26 @@
     </section>
   </footer>
 
-  <!-- <script src="./scripts/Contact.js"></script> -->
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    function sendEmail(){
+      // return confirm('Are you sure?');
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "fefet81554@lankew.com",
+    Password : "hello@123",
+    To : 'ks13bro@byom.de',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(hye)
+);
+
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
 </html>
