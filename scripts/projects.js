@@ -2,7 +2,7 @@ const projects = [
   {
     name: "Portfolio",
     date: "July, 22",
-    purpose: ["markZerp"],
+    purpose: ["markZero"],
     desc: "A web app that tells my portfolio.",
     liveLink: "https://kk-kuldeep.github.io/MY_PORTFOLIO/",
     srcLink: "https://github.com/kk-kuldeep/MY_PORTFOLIO",
