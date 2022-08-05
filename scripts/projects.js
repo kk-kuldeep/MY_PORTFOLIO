@@ -47,6 +47,14 @@ const projects = [
     liveLink: "https://kk-kuldeep.github.io/watch/",
     srcLink: "https://github.com/kk-kuldeep/watch",
   },
+  {
+    name: "Leetcode Automation",
+    date: "jan, 22",
+    purpose: ["markSix"],
+    desc: "Hey folks! Getting bored of copy paste codes at leetcode ? so here is the ultimate solution....... Leetcode Automation.",
+    liveLink: "https://www.linkedin.com/posts/kuldeep-singhal-b81808234_project-puppeteer-op-activity-6923116920850264064-BEos?utm_source=linkedin_share&utm_medium=member_desktop_web",
+    srcLink: "https://github.com/kk-kuldeep/web-development/tree/main/Node/4.automation/leetcode",
+  },
 ];
 
 const content = document.querySelector("#primary-content");
