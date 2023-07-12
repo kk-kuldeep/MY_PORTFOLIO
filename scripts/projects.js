@@ -4,7 +4,7 @@ const projects = [
     date: "July, 23",
     purpose: ["markZero"],
     desc: "Give a try on Amazon clone . Learnt a lot of things while making this project",
-    liveLink: "amazon-clone-mul8.onrender.com",
+    liveLink: "https://amazon-clone-mul8.onrender.com/",
     srcLink: "https://github.com/kk-kuldeep/amazon_clone",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     date: "July, 22",
     purpose: ["markTwo"],
     desc: "Give a try on disney clone . Learnt a lot of things while making this project",
-    liveLink: "hotstar-clone-hr40.onrender.com/",
+    liveLink: "https://hotstar-clone-hr40.onrender.com/",
     srcLink: "https://github.com/kk-kuldeep/Hotstar_clone",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     date: "Aug, 22",
     purpose: ["markThree"],
     desc: "Built an program to find user with their username. Used GitHub Api to search users and react js for frontend",
-    liveLink: "github-user-finder-y19g.onrender.com/",
+    liveLink: "https://github-user-finder-y19g.onrender.com/",
     srcLink: "https://github.com/kk-kuldeep/github_user_finder",
   },
   {
