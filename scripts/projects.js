@@ -4,7 +4,7 @@ const projects = [
     date: "July, 23",
     purpose: ["markZero"],
     desc: "Give a try on Amazon clone . Learnt a lot of things while making this project",
-    liveLink: "https://amazon-clone-mul8.onrender.com/",
+    liveLink: "https://e-commerce-clone-l3rt.onrender.com/",
     srcLink: "https://github.com/kk-kuldeep/amazon_clone",
   },
   {
